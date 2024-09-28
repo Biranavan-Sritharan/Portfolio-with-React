@@ -148,6 +148,13 @@ img {
     align-items: center; 
 }
 
+.span-biranavan {
+    color: black;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 2px black;
+}
+
+
 .text-container {
     /* border: 2px dashed green; */
     padding: 50px 125px 50px 50px;
@@ -164,7 +171,6 @@ img {
 h2 {
     margin-top: -10px;
 }
-
 
 /* Blob within title section */
 

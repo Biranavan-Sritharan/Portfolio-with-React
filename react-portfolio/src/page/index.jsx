@@ -44,7 +44,7 @@ function Index() {
             <div className="title" id="title-jump">
                 <div className="text-container">
                     <h1>
-                        Hi, I'm <span>Biranavan Sritharan</span>
+                        Hi, I'm <span className = "span-biranavan">Biranavan Sritharan</span>
                     </h1>
                     <h2>Software Engineer</h2>
                 </div>
