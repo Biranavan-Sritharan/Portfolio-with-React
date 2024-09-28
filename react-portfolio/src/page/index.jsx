@@ -94,6 +94,9 @@ function Index() {
                         <li className="proj-list-element">
                             Results entered on and displayed on a user-friendly and aesthetic webpage
                         </li>
+                        <li className="proj-list-element white-out-text">
+                            Results entered is displayed on a user-friendly
+                        </li>
                     </ul>
 
                     <div className="skills-container">
@@ -188,6 +191,9 @@ function Index() {
                         </li>
                         <li className="proj-list-element">
                             Future ideas of transitioning to GoDot and exploring C++ more thoroughly
+                        </li>
+                        <li className="proj-list-element white-out-text">
+                            
                         </li>
                     </ul>
 
