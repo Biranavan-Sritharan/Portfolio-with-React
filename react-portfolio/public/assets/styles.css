@@ -410,6 +410,7 @@ h2 {
     max-width: 1536px;
     margin: 20px 0px 0px 0px ;
     height: auto;
+
 }
 
 .more-info {
@@ -426,40 +427,42 @@ h2 {
 }
 
 .bento-grid {
-    /* border: 5px solid rgb(248, 8, 212); */
-    width: 85%;
+    border: 5px solid rgb(248, 8, 212); 
+    width: 1200px;
     height: 400px;
     
     display: flex;
+
 }
 
 .col-1 {
     /*border: 2px dashed blue;*/
-    width: 40%;
+    width: 522px;
     height: 400px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
 .col-2 {
     /*border: 2px dashed blue;*/
-    width: 60%;
+    width: 783px;
     height: 400px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+
 }
 
 .bento-1 {
     border: 2px solid black;
     border-radius: 15px;
-    width: 97%;
-    height: 68%;
+    width: 490px;
+    height: 250px;
     box-sizing: border-box;
 
 }
@@ -467,30 +470,33 @@ h2 {
 .bento-2 {
     border: 2px solid black;
     border-radius: 15px;
-    width: 97%;
-    height: 30%;
+    width: 490px;
+    height: 120px;
     box-sizing: border-box;
+
 }
 
 .bento-3 {
     border: 2px solid black;
     border-radius: 15px;
-    width: 100%;
-    height: 43%;
+    width: 680px;
+    height: 180px;
     box-sizing: border-box;
+
 }
 
 .bento-4 {
     border: 2px solid black;
     border-radius: 15px;
-    width: 100%;
-    height: 55%;
+    width: 680px;
+    height: 220px;
     box-sizing: border-box;
 
 }
 
 .bento-h3 {
     padding: 5px 0px 0px 5px;
+
 }
 
 .bento-ul {
@@ -499,6 +505,7 @@ h2 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+
 }
 
 .bento-li {
@@ -513,6 +520,7 @@ h2 {
 
 .work-date {
     text-align: end;
+
 }
 
 .centering-skills {
@@ -532,6 +540,7 @@ h2 {
 
     display: flex;
     justify-content: space-evenly;
+
 }
 
 .bento-skills {
@@ -545,6 +554,7 @@ h2 {
     align-items: center;
     font-size: 18px;
     font-weight: 600;
+    
 }
 
 .skill3, .skill4 {
