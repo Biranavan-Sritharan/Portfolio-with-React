@@ -252,10 +252,85 @@ h2 {
 
 .projects-title {
     /* border: 2px solid red; */
-    width: 100%;
+    width: 90%;
     max-width: 1536px;
+    height: 70px;
+    margin-inline: auto;
+    margin: 200px 0px 0px 0px; /*chaange bottom margins later!!*/
+    position: relative; 
+    overflow: hidden;
+
+    mask-image: linear-gradient(
+        to right,
+        rgba(0,0,0,0),
+        rgba(0,0,0,1) 20%,
+        rgba(0,0,0,1) 90%,
+        rgba(0,0,0,0)
+    );
+}
+
+@keyframes scroll-title {
+    to {
+        left: -450px;
+    }
+}
+
+.title_image {
+    /* border: 2px solid green; */
+    width: auto;
     height: auto;
-    margin: 200px 0px 5px 0px;
+    position: absolute;
+
+    left: calc(450px * 8);
+    animation-name: scroll-title;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.img-proj {
+    width: auto;
+    height: 60px;
+}
+
+.proj1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1); /**/
+    /* border: 2px dashed blue; */
+}
+
+.proj2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);/**/
+    /* border: 2px dashed rgb(0, 0, 0); */
+}
+
+.proj3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+    /* border: 5px solid rgb(121, 0, 155); */
+}
+
+.proj4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);/**/
+    /* border: 2px dashed cyan; */
+}
+
+.proj5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);/**/
+    /* border: 2px dashed red; */
+}
+
+.proj6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+    /* border: 2px solid rgb(50, 45, 63); */
+}
+
+.proj7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);/**/
+    /* border: 2px dashed pink; */
+}
+
+.proj8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);/**/
+    /* border: 2px dashed green; */
 }
 
 .temp-title {
@@ -427,10 +502,9 @@ h2 {
 }
 
 .bento-grid {
-    border: 5px solid rgb(248, 8, 212); 
+    /* border: 5px solid rgb(248, 8, 212);  */
     width: 1200px;
     height: 400px;
-    
     display: flex;
 
 }
@@ -462,7 +536,7 @@ h2 {
     border: 2px solid black;
     border-radius: 15px;
     width: 490px;
-    height: 250px;
+    height: 255px;
     box-sizing: border-box;
 
 }
@@ -471,25 +545,25 @@ h2 {
     border: 2px solid black;
     border-radius: 15px;
     width: 490px;
-    height: 120px;
+    height: 125px;
     box-sizing: border-box;
 
 }
 
 .bento-3 {
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 15px;
     width: 680px;
-    height: 180px;
+    height: 170px;
     box-sizing: border-box;
 
 }
 
 .bento-4 {
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 15px;
     width: 680px;
-    height: 220px;
+    height: 210px;
     box-sizing: border-box;
 
 }
@@ -544,8 +618,8 @@ h2 {
 }
 
 .bento-skills {
-    width: 75px;
-    height: 75px;
+    width: 86px;
+    height: 86px;
     background-color: rgb(226, 226, 226);
     border-radius: 5px;
 
@@ -574,6 +648,7 @@ h2 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     column-gap: 40px;
+    margin-top: 12px;
 }
 
 .bento-skills-minor {

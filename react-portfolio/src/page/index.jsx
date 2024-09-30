@@ -72,7 +72,14 @@ function Index() {
 
             {/* Projects Section */}
             <div className="projects-title">
-                <h1 className="temp-title">Projects</h1>
+                <div className = "title_image proj1"> <img src="assets/images/project_title.png"  className = "img-proj proj1" alt="Project" /> </div>
+                <div className = "title_image proj2"> <img src="assets/images/project_title.png"  className = "img-proj proj2" alt="Project" /> </div>
+                <div className = "title_image proj3"> <img src="assets/images/project_title.png"  className = "img-proj proj3" alt="Project" /> </div>
+                <div className = "title_image proj4"> <img src="assets/images/project_title.png"  className = "img-proj proj4" alt="Project" /> </div>
+                <div className = "title_image proj5"> <img src="assets/images/project_title.png"  className = "img-proj proj5" alt="Project" /> </div>
+                <div className = "title_image proj6"> <img src="assets/images/project_title.png"  className = "img-proj proj6" alt="Project" /> </div>
+                <div className = "title_image proj7"> <img src="assets/images/project_title.png"  className = "img-proj proj7" alt="Project" /> </div>
+                <div className = "title_image proj8"> <img src="assets/images/project_title.png"  className = "img-proj proj8" alt="Project" /> </div>
             </div>
 
             <div className="projects">
