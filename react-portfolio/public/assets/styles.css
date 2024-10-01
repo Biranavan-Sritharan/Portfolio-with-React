@@ -38,7 +38,7 @@ body {
 /*invisible container of this taskbar*/ /*this basically decides where the nav bar sits on the page*/
 nav {
     /* border: 2px solid red; */
-    margin: 50px;
+    margin: 0px 0px 20px 0px;
     width: 700px;
     height: 100px;
 
@@ -481,11 +481,76 @@ h2 {
 
 .more {
     /* border: 2px solid green; */
-    width: 100%;
+    width: 90%;
     max-width: 1536px;
-    margin: 20px 0px 0px 0px ;
-    height: auto;
+    margin: 200px 0px 0px 0px ;
+    height: 70px;
+    position: relative; 
+    overflow: hidden;
 
+    mask-image: linear-gradient(
+        to right,
+        rgba(0,0,0,0),
+        rgba(0,0,0,1) 20%,
+        rgba(0,0,0,1) 90%,
+        rgba(0,0,0,0)
+    );
+}
+
+@keyframes scroll-more {
+    to {
+        left: -800px;
+    }
+}
+
+.more-image {
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: auto;
+    height: auto;
+    position: absolute;
+
+    left: calc(800px * 8);
+    animation-name: scroll-more;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.more-img {
+    width: auto;
+    height: 65px;
+}
+
+.more1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+
+.more2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+
+.more3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+
+.more4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+
+.more5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+
+.more6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+
+.more7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.more8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
 }
 
 .more-info {

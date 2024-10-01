@@ -232,7 +232,14 @@ function Index() {
 
             {/* More Information Section */}
             <div className="more">
-                <h1 className="temp-title">More Information</h1>
+                <div className = "more-image more1"> <img src="assets/images/more_info_title.png"  className = "more-img" alt="More Information" /> </div>
+                <div className = "more-image more2"> <img src="assets/images/more_info_title.png"  className = "more-img" alt="More Information" /> </div>
+                <div className = "more-image more3"> <img src="assets/images/more_info_title.png"  className = "more-img" alt="More Information" /> </div>
+                <div className = "more-image more4"> <img src="assets/images/more_info_title.png"  className = "more-img" alt="More Information" /> </div>
+                <div className = "more-image more5"> <img src="assets/images/more_info_title.png"  className = "more-img" alt="More Information" /> </div>
+                <div className = "more-image more6"> <img src="assets/images/more_info_title.png"  className = "more-img" alt="More Information" /> </div>
+                <div className = "more-image more7"> <img src="assets/images/more_info_title.png"  className = "more-img" alt="More Information" /> </div>
+                <div className = "more-image more8"> <img src="assets/images/more_info_title.png"  className = "more-img" alt="More Information" /> </div>
             </div>
 
             <div className="more-info">
