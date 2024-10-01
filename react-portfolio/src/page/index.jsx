@@ -25,7 +25,7 @@ function Index() {
                                     </a>
                                 </li>
                             </div>
-                            <a href="" className="nav-bar-links">
+                            <a href="https://drive.google.com/file/d/1xOqlonKt5exl0BunRu7yUW3buc-zY_0a/view?usp=sharing" className="nav-bar-links">
                                 <div className="pill-3">
                                     <li>CV</li>
                                 </div>
