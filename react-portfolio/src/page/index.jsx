@@ -65,8 +65,8 @@ function Index() {
             {/* About Me Section */}
             <div className="about-me">
                 <p className="about-text">
-                    Starting in forensic science, I picked up computer science from where I left off in secondary
-                    school and have made significant contributions to real world problems with programming
+                    Finishing University in Forensic Science, I decided to take a Master's in Computer Science and  
+                    then had gone onto make significant contributions to real world problems with freelance programming
                 </p>
             </div>
 
