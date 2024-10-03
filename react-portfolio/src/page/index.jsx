@@ -181,11 +181,56 @@ function Index() {
                     </div>
                 </div>
 
+                <div className="proj-4">
+                    <img src="/assets/images/project_4.png" className="project-image4" alt="Maze Solver :D" />
+                    <h2 className="projbox-title">Maze Solver Software</h2>
+                    <ul className="proj-list">
+                        <li className="proj-list-element">
+                            Using Python, being able to traverse through mazes and find the end goal
+                            from a starting position and be able to deal with diffrent scenarios within a maze
+                        </li>
+                        <li className="proj-list-element">
+                            Maze solvers increase in complexity as the files go on, each iteration being able 
+                            to tackle a new problem that has been presented such as dead ends
+                        </li>
+                        <li className="proj-list-element">
+                            Interface also being made later down the line to make demonstrations easier to visualise
+                        </li>
+                    </ul>
+
+                    <div className="skills-container">
+                        <div className="skills-rect1">Python</div>
+                        <div className="skills-rect2">NumPy</div>
+                        <div className="skills-rect3" id="rect3"></div>
+                        <div className="skills-rect4" id="rect4"></div>
+                    </div>
+
+                    <div className="links-container">
+                        <a
+                            className="links-box"
+                            href="https://github.com/Biranavan-Sritharan/Maze-Solver"
+                        >
+                            <div className="Git-Link">
+                                <img
+                                    src="/assets/images/github2_logo.png"
+                                    className="git-image"
+                                    alt="GitHub Link Image"
+                                />
+                                <p className="link-text">GitHub</p>
+                            </div>
+                        </a>
+                        <div className="Web-Link" id="Web-Link-over-ride">
+                            <img src="/assets/images/website_icon.p" className="web-image" alt="" />
+                            <p className="link-text"></p>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="proj-3">
                     <img
                         src="/assets/images/project_3.png"
                         className="project-image3"
-                        alt="Disease Prediction, Working together"
+                        alt="Py Game Dev, Working together"
                     />
                     <h2 className="projbox-title">Python Game Development</h2>
                     <ul className="proj-list">

@@ -359,7 +359,7 @@ h2 {
     
 }
 
-.proj-1, .proj-2, .proj-3, .proj-4 {
+.proj-1, .proj-2, .proj-3, .proj-4, .proj-5 {
     width: 450px;
     height: 550px;
     border: 2px solid black;
@@ -371,7 +371,7 @@ h2 {
     align-items: center;
 }
 
-.project-image1, .project-image2, .project-image3 {
+.project-image1, .project-image2, .project-image3, .project-image4 {
     /* border: 2px solid red; */
     width: 420px;
     height: auto;
