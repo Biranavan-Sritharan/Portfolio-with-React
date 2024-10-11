@@ -226,6 +226,36 @@ function Index() {
                     </div>
                 </div>
 
+                <div className="proj-5">
+                    <img
+                        src="/assets/images/project_5.png"
+                        className="project-image3"
+                        alt="Py Game Dev, Working together"
+                    />
+                    <h2 className="projbox-title">HEAT for Colour Blind Users</h2>
+                    <ul className="proj-list">
+                        <li className="proj-list-element">
+                            In a group collaboration, the HEAT (Haskell Education Advancement Tool) Code Editor was made suitable for Colour Blind Users amongst other disablities
+                        </li>
+                        <li className="proj-list-element">
+                            Using Java, the code editor was improved on by taking in user stories and also following industry standard Agile and Waterfall methodologies
+                        </li>
+                        <li className="proj-list-element">
+                            This project is however confidential and copyrighted by the University of Kent, so the source code and final product can not be revealed to the public, therefore no GitHub link is provided.
+                        </li>
+                        <li className="proj-list-element white-out-text">
+                            
+                        </li>
+                    </ul>
+
+                    <div className="skills-container" id="proj-5-skills-container">
+                        <div className="skills-rect1">Java</div>
+                        <div className="skills-rect2">Haskell</div>
+                        <div className="skills-rect3">HTML</div>
+                        <div className="skills-rect4" id="rect4"></div>
+                    </div>
+                </div>
+
                 <div className="proj-3">
                     <img
                         src="/assets/images/project_3.png"
