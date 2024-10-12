@@ -35,6 +35,18 @@ body {
 }
 */
 
+#follower {
+    /* border: 2px solid red; */
+    width: 75px;
+    height: auto;
+    /* height: 32px; */
+    position: absolute;
+    margin: 50px 0 0 -16px;
+    z-index: 50;
+}
+
+
+
 /*invisible container of this taskbar*/ /*this basically decides where the nav bar sits on the page*/
 nav {
     /* border: 2px solid red; */
