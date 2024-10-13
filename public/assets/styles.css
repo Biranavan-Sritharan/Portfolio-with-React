@@ -241,7 +241,7 @@ h2 {
     height: auto;
     /* border: 2px dashed red; */
     position: relative;
-    margin: 200px 0px 0px 0px;
+    margin: 200px 0px 400px 0px;
 }
 
 .about-text {
@@ -360,7 +360,7 @@ h2 {
     width: 100%;
     max-width: 1536px;
     height: auto;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 400px 0px;
 
     display: flex;
     justify-content: center;
