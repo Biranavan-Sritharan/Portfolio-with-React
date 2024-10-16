@@ -116,7 +116,7 @@ function Index() {
                     <div className="links-container">
                         <a
                             className="links-box"
-                            href="https://github.com/Biranavan-Sritharan/Biranavan-Sritharan.github.io"
+                            href="https://github.com/Biranavan-Sritharan/Machine-Learning-Disease-Predictor"
                         >
                             <div className="Git-Link">
                                 <img
@@ -127,7 +127,7 @@ function Index() {
                                 <p className="link-text">GitHub</p>
                             </div>
                         </a>
-                        <a className="links-box" href="https://biranavan-sritharan.github.io/">
+                        <a className="links-box" href="https://biranavan-sritharan.github.io/Machine-Learning-Disease-Predictor/">
                             <div className="Web-Link">
                                 <img src="/assets/images/website_icon.png" className="web-image" alt="Website Link Image" />
                                 <p className="link-text">Website</p>
