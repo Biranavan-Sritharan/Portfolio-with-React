@@ -102,7 +102,7 @@ function Index() {
                             Results entered on and displayed on a user-friendly and aesthetic webpage
                         </li>
                         <li className="proj-list-element white-out-text">
-                            Results entered is displayed on a user-friendly
+                            You found a secret message :)
                         </li>
                     </ul>
 
@@ -253,6 +253,53 @@ function Index() {
                         <div className="skills-rect2">Haskell</div>
                         <div className="skills-rect3">HTML</div>
                         <div className="skills-rect4" id="rect4"></div>
+                    </div>
+                </div>
+
+                <div className="proj-6">
+                    <img
+                        src="/assets/images/project_6.png"
+                        className="project-image3"
+                        alt="looks like its not loaded :("
+                    />
+                    <h2 className="projbox-title">Web-Scraper Decoder Challenge</h2>
+                    <ul className="proj-list">
+                        <li className="proj-list-element">
+                            Using web scraping to read html elements and convert it to data
+                        </li>
+                        <li className="proj-list-element">
+                            Then using NumPy to create a grid based on the data and then adding the coordinates to the specified point on the grid
+                        </li>
+                        <li className="proj-list-element">
+                            Also used the requests library to actually create the http request
+                        </li>
+                        <li className="proj-list-element white-out-text">
+                            
+                        </li>
+                    </ul>
+
+                    <div className="skills-container">
+                        <div className="skills-rect1">Python</div>
+                        <div className="skills-rect2">NumPy</div>
+                        <div className="skills-rect3" id = "skill3-smallertext">beautifulsoup4</div>
+                        <div className="skills-rect4">requests</div>
+                    </div>
+
+                    <div className="links-container">
+                        <a className="links-box" href="https://github.com/Biranavan-Sritharan/Web-Scraper-Decoder-Challenge">
+                            <div className="Git-Link">
+                                <img
+                                    src="/assets/images/github2_logo.png"
+                                    className="git-image"
+                                    alt="GitHub Link Image"
+                                />
+                                <p className="link-text">GitHub</p>
+                            </div>
+                        </a>
+                        <div className="Web-Link" id="Web-Link-over-ride">
+                            <img src="/assets/images/website_icon" className="web-image" alt="" />
+                            <p className="link-text"></p>
+                        </div>
                     </div>
                 </div>
 

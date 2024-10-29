@@ -371,7 +371,7 @@ h2 {
     
 }
 
-.proj-1, .proj-2, .proj-3, .proj-4, .proj-5 {
+.proj-1, .proj-2, .proj-3, .proj-4, .proj-5, .proj-6 {
     width: 450px;
     height: 550px;
     border: 2px solid black;
@@ -425,6 +425,10 @@ h2 {
 
 #proj-5-skills-container {
     margin: -15px 0px 0px 0px;
+}
+
+#skill3-smallertext {
+    font-size: 12px;
 }
 
 .white-out-text {
