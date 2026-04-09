@@ -46,7 +46,7 @@ function Index() {
                     <h1>
                         Hi, I'm <span className = "span-biranavan">Biranavan Sritharan</span> <span className= "emoji-size"> &#128513; </span>
                     </h1>
-                    <h2>Software Engineer</h2>
+                    {<h2>Take a look at my work!</h2>}
                 </div>
 
                 <div className="blob">
@@ -65,8 +65,8 @@ function Index() {
             {/* About Me Section */}
             <div className="about-me">
                 <p className="about-text">
-                    Finishing University in Forensic Science, I decided to take a Master's in Computer Science and  
-                    then gone onto make significant contributions to real world problems with freelance programming
+                    Finished University in Forensic Science, I decided to complete a Master's in Computer Science.  
+                    Made highly complex projects. With this knowledge I am now eager to apply this to a professional envionment.
                 </p>
             </div>
 
@@ -349,6 +349,82 @@ function Index() {
                             <p className="link-text"></p>
                         </div>
                     </div>
+                </div>
+
+                <div className="proj-3"> {/*raycaster*/}
+                    <img
+                        src="/assets/images/project_7.png"
+                        className="project-image3"
+                        alt="Py Game Dev, Working together"
+                    />
+                    <h2 className="projbox-title">Raycaster</h2>
+                    <ul className="proj-list">
+                        <li className="proj-list-element">
+                            Rendering technique to create a 3D perpective in a 2D map
+                        </li>
+                        <li className="proj-list-element">
+                            Highly optimised way of rendering using incremented basic addition after the main calculation is done
+                        </li>
+                        <li className="proj-list-element">
+                            How early videogames like Wolfenstein or Doom was rendered for much older computers with much more limited memory!
+                        </li>
+                    </ul>
+
+                    <div className="skills-container">
+                        <div className="skills-rect1">Python</div>
+                        <div className="skills-rect2">Pygame</div>
+                        <div className="skills-rect3">Optimisation</div>
+                        <div className="skills-rect4" id="rect4"></div>
+                    </div>
+
+                    <div className="links-container">
+                        <a className="links-box" href="https://github.com/Biranavan-Sritharan/raycaster">
+                            <div className="Git-Link">
+                                <img
+                                    src="/assets/images/github2_logo.png"
+                                    className="git-image"
+                                    alt="GitHub Link Image"
+                                />
+                                <p className="link-text">GitHub</p>
+                            </div>
+                        </a>
+                        <div className="Web-Link" id="Web-Link-over-ride">
+                            <img src="/assets/images/website_icon" className="web-image" alt="" />
+                            <p className="link-text"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="proj-3"> {/*blackjack monte carlo simulation*/}
+                    <img
+                        src="/assets/images/project_8.png"
+                        className="project-image3"
+                        alt="Py Game Dev, Working together"
+                    />
+                    <h2 className="projbox-title">Monte Carlo Simulation</h2>
+                    <ul className="proj-list">
+                        <li className="proj-list-element">
+                            Created my own proprietary monte carlo simulation to be pushed to market
+                        </li>
+                        <li className="proj-list-element">
+                            Optimised code using multiprocessing (Pool) and cython to run even more simulations
+                        </li>
+                        <li className="proj-list-element">
+                            Custom UI that dispalys a graph of the simulation alongside various calculated stats
+                        </li>
+                        <li className="proj-list-element">
+                            Can be used to predict losses/profits based on diffrent strategies the user may want to implement. 
+                        </li>
+                    </ul>
+
+                    <div className="skills-container">
+                        <div className="skills-rect1">Python</div>
+                        <div className="skills-rect2">matplotlib</div>
+                        <div className="skills-rect3">pytest</div>
+                        <div className="skills-rect4"> cython </div>
+                    </div>
+
+                    
                 </div>
             </div>
 
