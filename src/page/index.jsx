@@ -480,7 +480,7 @@ function Index() {
                                 <p className="education-p">
                                     <span className="span-kent">University of Kent</span>
                                     <br />
-                                    <span className="span-school">2023 - 2024 Master's in Computer Science</span>
+                                    <span className="span-school">2023 - 2024 Master's in Computer Science | Merit</span>
                                     <br />
                                     Related Modules: Software Engineering and Advanced Object-Oriented Programming
                                     <br /><br />
@@ -495,21 +495,21 @@ function Index() {
                             <div className="centering-skills">
                                 <div className="bento-skills-container">
                                     <div className="bento-skills skill1">Python</div>
-                                    <div className="bento-skills skill2">Java</div>
+                                    <div className="bento-skills skill2">SQL</div>
                                     <div className="bento-skills skill3">JavaScript</div>
-                                    <div className="bento-skills skill4">TypeScript</div>
-                                    <div className="bento-skills skill5">React</div>
-                                    <div className="bento-skills skill6">HTML</div>
-                                    <div className="bento-skills skill7">CSS</div>
+                                    <div className="bento-skills skill4">React</div>
+                                    <div className="bento-skills skill5">Network Protocols</div>
+                                    <div className="bento-skills skill6">CI/CD</div>
+                                    <div className="bento-skills skill7">Active Directory</div>
                                 </div>
                                 <div className="bento-skills-container2">
                                     <div className="bento-skills-minor minor1">Docker</div>
-                                    <div className="bento-skills-minor minor2">SQL</div>
-                                    <div className="bento-skills-minor minor3">Redis</div>
-                                    <div className="bento-skills-minor minor4">PHP</div>
-                                    <div className="bento-skills-minor minor5">MATLAB</div>
-                                    <div className="bento-skills-minor minor6">TensorFlow</div>
-                                    <div className="bento-skills-minor minor7">Scikit Learn</div>
+                                    <div className="bento-skills-minor minor2">Git/GitHub</div>
+                                    <div className="bento-skills-minor minor3">ServiceNow</div>
+                                    <div className="bento-skills-minor minor4">Jira</div>
+                                    <div className="bento-skills-minor minor5">AGILE</div>
+                                    <div className="bento-skills-minor minor6">cython</div>
+                                    <div className="bento-skills-minor minor7">matplotlib</div>
                                     <div className="bento-skills-minor minor8">PyTorch</div>
                                     <div className="bento-skills-minor minor9">Pandas</div>
                                     <div className="bento-skills-minor minor10">NumPy</div>
