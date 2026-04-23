@@ -447,16 +447,16 @@ function Index() {
                             <h3 className="bento-h3">Work Experience</h3>
                             <ul className="bento-ul">
                                 <li className="bento-li">
-                                    Back of the House Team Member, Wetherspoons 
-                                    <p className="work-date">July 2023 - September 2023</p>
+                                    General Counselor & IT Support Staff, YMCA
+                                    <p className="work-date">May 2025 to August 2025</p>
                                 </li>
                                 <li className="bento-li">
-                                    Casino Associate Team Member, Merkur Casino 
-                                    <p className="work-date">December 2022 - July 2023</p>
+                                     Lead Customer Service Supervisor, Triple Two Coffee
+                                    <p className="work-date">January 2025 to May 2025</p>
                                 </li>
                                 <li className="bento-li">
-                                    Front of House Team Member, Joe's Coffee House 
-                                    <p className="work-date">July 2022 - December 2022</p>
+                                    IT Technical Support Assistant, Merkur Casino 
+                                    <p className="work-date">November 2022 to January 2024</p>
                                 </li>
                             </ul>
                         </div>
@@ -467,7 +467,7 @@ function Index() {
                                     <span className="cert-span">Codecademy Certifications:</span>
                                     <br />
                                     HTML, PHP, SQL & CSS <br />
-                                    (certifications available on LinkedIn)
+                                    (MORE CERTIFICATIONS AVALIABLE ON LINKEDIN)
                                 </p>
                             </div>
                         </div>
